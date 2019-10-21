@@ -1,0 +1,6 @@
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\PrimeirosPassos.Domain\bin\Debug\PrimeirosPassos.Domain.dll
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\PrimeirosPassos.Domain\bin\Debug\PrimeirosPassos.Domain.pdb
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\PrimeirosPassos.Domain\obj\Debug\PrimeirosPassos.Domain.csprojAssemblyReference.cache
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\PrimeirosPassos.Domain\obj\Debug\PrimeirosPassos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\PrimeirosPassos.Domain\obj\Debug\PrimeirosPassos.Domain.dll
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\PrimeirosPassos.Domain\obj\Debug\PrimeirosPassos.Domain.pdb

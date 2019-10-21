@@ -1,0 +1,17 @@
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\Application.exe.config
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\Application.exe
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\Application.pdb
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\PrimeirosPassos.Data.dll
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\PrimeirosPassos.Domain.dll
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\EntityFramework.dll
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\PrimeirosPassos.Data.pdb
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\PrimeirosPassos.Data.dll.config
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\PrimeirosPassos.Domain.pdb
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\EntityFramework.xml
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\obj\Debug\Application.csprojAssemblyReference.cache
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\obj\Debug\Application.csproj.CopyComplete
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\obj\Debug\Application.exe
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\obj\Debug\Application.pdb
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\heliojunior\Documents\dotNet\EntityFramework\PrimeirosPassos\Application\bin\Debug\EntityFramework.SqlServer.xml
