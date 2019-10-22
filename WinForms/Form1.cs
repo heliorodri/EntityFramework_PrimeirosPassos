@@ -39,9 +39,23 @@ namespace WinForms
             };
             dbContext.Produtos.Add(prod);
 
+            Loja loja2 = new Loja()
+            {
+                Nome = "Loja2",
+                Descricao = "Loja de Música"
+            };
+            dbContext.Lojas.Add(loja2);
+
+            Produto prod2 = new Produto()
+            {
+                Nome = "Dark Side of the Moon",
+                Descricao = "Dark side of the Moon by Pynk Floyd",
+                Valor = 100.00M,
+                Loja = loja2
+            };
+            dbContext.Produtos.Add(prod2);
 
             dbContext.SaveChanges();
-
 
         }
 
@@ -65,6 +79,15 @@ namespace WinForms
         {
             Produto prod = dbContext.Produtos.Find(1);
             Loja j = prod.Loja;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            IEnumerable<Produto> ProdutosIniciadoComA =
+                dbContext.Produtos.Where(p => p.Nome.StartsWith("C"));
+
+            IEnumerable<Produto> produtosLoja2 =
+                dbContext.Produtos.Where(p => p.LojaId == 1);
         }
     }
 }
