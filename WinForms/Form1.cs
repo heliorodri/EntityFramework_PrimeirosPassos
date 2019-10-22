@@ -44,5 +44,27 @@ namespace WinForms
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Loja loja = dbContext.Lojas.Find(1);
+
+            Produto newProd = new Produto()
+            {
+                Nome = "Jersey Patriots",
+                Valor = 299.00M,
+                Descricao = "Camiseta New England Patriots",
+                LojaId = loja.ID
+            };
+            dbContext.Produtos.Add(newProd);
+
+            dbContext.SaveChanges();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Produto prod = dbContext.Produtos.Find(1);
+            Loja j = prod.Loja;
+        }
     }
 }
