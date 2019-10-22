@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using PrimeirosPassos.Domain;
 using PrimeirosPassos.Data;
@@ -61,7 +57,7 @@ namespace WinForms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Loja loja = dbContext.Lojas.Find(1);
+            Loja loja = dbContext.Lojas.Find(2);
 
             Produto newProd = new Produto()
             {
@@ -77,7 +73,7 @@ namespace WinForms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Produto prod = dbContext.Produtos.Find(1);
+            Produto prod = dbContext.Produtos.Find(4);
             Loja j = prod.Loja;
         }
 
@@ -87,7 +83,14 @@ namespace WinForms
                 dbContext.Produtos.Where(p => p.Nome.StartsWith("C"));
 
             IEnumerable<Produto> produtosLoja2 =
-                dbContext.Produtos.Where(p => p.LojaId == 1);
+                dbContext.Produtos.Where(p => p.LojaId == 3);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Loja l = dbContext.Lojas.Find(2);
+            l.Nome = "Loja 1 teste update";
+            dbContext.SaveChanges();
         }
     }
 }
