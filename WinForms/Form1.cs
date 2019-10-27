@@ -92,5 +92,13 @@ namespace WinForms
             l.Nome = "Loja 1 teste update";
             dbContext.SaveChanges();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Loja l = dbContext.Lojas.Find(2);
+            dbContext.Lojas.Remove(l);
+
+            dbContext.SaveChanges();
+        }
     }
 }
