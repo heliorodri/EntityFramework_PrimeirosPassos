@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows.Forms;
 using PrimeirosPassos.Domain;
 using PrimeirosPassos.Data;
+using System.Data.Entity;
 
 namespace WinForms
 {
@@ -98,6 +99,20 @@ namespace WinForms
             Loja l = dbContext.Lojas.Find(2);
             dbContext.Lojas.Remove(l);
 
+            dbContext.SaveChanges();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Produto p = new Produto()
+            {
+                Id = 2,
+                Nome = "Teste 22",
+                LojaId = 2,
+                Descricao = "testes"
+            };
+
+            dbContext.Entry(p).State = EntityState.Modified;
             dbContext.SaveChanges();
         }
     }
