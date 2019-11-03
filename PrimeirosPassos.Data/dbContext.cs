@@ -8,14 +8,16 @@ using PrimeirosPassos.Domain;
 
 namespace PrimeirosPassos.Data
 {
-    public class ProdutosContext : DbContext
+    public class dbContext : DbContext
     { 
         //Inicializar o DataBase e cria-lo, caso não exista
-        public ProdutosContext() : base("Name=TestBase")
+        public dbContext() : base("Name=TestBase")
         {      
-            Database.SetInitializer<ProdutosContext>(
-                new CreateDatabaseIfNotExists<ProdutosContext>());
+            Database.SetInitializer<dbContext>(
+                new CreateDatabaseIfNotExists<dbContext>());
             Database.Initialize(false); //Será executado somente uma vez
+
+            Database.Log = d => System.Diagnostics.Debug.WriteLine(d);
         }
 
         //mapeamento das duas entidades

@@ -11,11 +11,11 @@ namespace WinForms
 {
     public partial class Form1 : Form
     {
-        ProdutosContext dbContext;
+        dbContext dbContext;
         public Form1()
         {
             InitializeComponent();
-            dbContext = new ProdutosContext();
+            dbContext = new dbContext();
         }
 
         private void button1_Click(object sender, EventArgs e)

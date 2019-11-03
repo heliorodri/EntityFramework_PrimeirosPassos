@@ -12,7 +12,7 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            ProdutosContext context = new ProdutosContext();
+            dbContext context = new dbContext();
         }
     }
 }
